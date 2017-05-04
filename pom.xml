@@ -3,14 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.se52.carparking</groupId>
-	
-	<artifactId>project</artifactId>
+	<groupId>com.sanghuynh.demo</groupId>
+	<artifactId>security</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>CarParkingSystem</name>
-	<description>Car Parking Management System</description>
+	<name>SpringSecurityDemo</name>
+	<description>Demo project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -33,10 +32,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
